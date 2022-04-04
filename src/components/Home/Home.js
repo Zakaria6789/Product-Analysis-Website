@@ -2,6 +2,7 @@ import React from 'react';
 import useReviews from '../../hooks/useReviews/useReviews';
 import Review from '../Review/Review';
 import './Home.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const [reviews, setReviews] = useReviews();
@@ -32,7 +33,7 @@ const Home = () => {
                     }
                 </div>
                 <div className='review-btn'>
-                    <button>See All Reviews</button>
+                    <Link to='/reviews'><button>See All Reviews</button></Link>
                 </div>
             </div>
         </div>

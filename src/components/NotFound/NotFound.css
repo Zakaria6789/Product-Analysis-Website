@@ -1,0 +1,19 @@
+.error-page {
+    text-align: center;
+    padding: 0 100px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.error-page img {
+    width: 450px;
+}
+
+.error-page h2 {
+    font-size: 40px;
+    color: #9D4473;
+}

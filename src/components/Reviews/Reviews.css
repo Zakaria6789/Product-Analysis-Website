@@ -1,0 +1,10 @@
+.reviews-container {
+    padding: 0 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.reviews-container h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
