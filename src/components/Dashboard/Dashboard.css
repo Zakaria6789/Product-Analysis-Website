@@ -1,0 +1,11 @@
+.charts-container {
+    padding: 50px 100px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 50px;
+}
+
+.chart-title {
+    color: #9D4473;
+}
