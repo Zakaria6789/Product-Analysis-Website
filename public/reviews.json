@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Perry Graham",
+        "id": "1",
+        "img": "https://randomuser.me/api/portraits/men/29.jpg",
+        "review": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu",
+        "rating": "3 Start"
+    },
+    {
+        "name": "Lonnie Morris",
+        "id": "2",
+        "img": "https://randomuser.me/api/portraits/men/51.jpg",
+        "review": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu",
+        "rating": "3 Start"
+    },
+    {
+        "name": "Brandon Dixon",
+        "id": "3",
+        "img": "https://randomuser.me/api/portraits/men/44.jpg",
+        "review": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu",
+        "rating": "3 Start"
+    },
+    {
+        "name": "Gary Phillips",
+        "id": "4",
+        "img": "https://randomuser.me/api/portraits/men/26.jpg",
+        "review": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu",
+        "rating": "3 Start"
+    },
+    {
+        "name": "Melvin Butler",
+        "id": "5",
+        "img": "https://randomuser.me/api/portraits/men/31.jpg",
+        "review": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu",
+        "rating": "3 Start"
+    },
+    {
+        "name": "Clyde Wagner",
+        "id": "6",
+        "img": "https://randomuser.me/api/portraits/men/40.jpg",
+        "review": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indu",
+        "rating": "3 Start"
+    }
+]

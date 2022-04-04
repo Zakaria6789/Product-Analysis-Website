@@ -1,0 +1,67 @@
+.banner {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    padding: 80px 100px;
+}
+
+.banner-left {
+    padding-right: 50px;
+}
+
+.banner-left h1 {
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+.banner-left span {
+    color: #9D4473;
+}
+
+.banner-left p {
+    font-size: 17px;
+}
+
+.banner-left button {
+    padding: 12px 30px;
+    font-size: 20px;
+    border: 2px solid #9D4473;
+    color: #9D4473;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.banner-left button:hover {
+    background-color: #9D4473;
+    color: white;
+}
+
+.banner-right img {
+    width: 100%;
+}
+
+
+
+.customer-reviews {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.review-title h2 {
+    font-size: 35px;
+}
+
+.reviewers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.review-btn {
+    margin-top: 30px;
+}
+
+.review-btn button {
+    padding: 10px 20px;
+}

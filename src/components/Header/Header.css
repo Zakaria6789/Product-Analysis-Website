@@ -1,0 +1,21 @@
+.nav {
+    background-color: gray;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease-in;
+
+}
+
+.nav a:hover {
+    color: brown;
+    border-bottom: 2px solid brown;
+}

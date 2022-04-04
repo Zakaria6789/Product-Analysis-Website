@@ -1,0 +1,15 @@
+.reviewer {
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.reviewer img {
+    border-radius: 50%;
+}
+
+.rating-icon .icon {
+    color: orange;
+    margin-right: 3px;
+}
