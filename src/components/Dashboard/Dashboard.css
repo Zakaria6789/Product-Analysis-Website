@@ -9,3 +9,23 @@
 .chart-title {
     color: #9D4473;
 }
+
+
+
+
+@media screen and (min-width:250px) and (max-width:425px) {
+    .charts-container {
+        padding: 30px 20px;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+
+@media screen and (min-width:426px) and (max-width:800px) {
+    .charts-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+}

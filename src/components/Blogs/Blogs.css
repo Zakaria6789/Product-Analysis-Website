@@ -28,3 +28,45 @@ code,
 span {
     color: #9D4473;
 }
+
+
+
+@media screen and (min-width:250px) and (max-width:425px) {
+    .blogs-container {
+        padding: 0 20px;
+        margin-bottom: 40px;
+    }
+
+    .blogs-container h2 {
+        font-size: 25px;
+
+    }
+
+    .blog h3 {
+        font-size: 20px;
+    }
+
+    .blog p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:800px) {
+    .blogs-container {
+        padding: 0 50px;
+        margin-bottom: 40px;
+    }
+
+    .blogs-container h2 {
+        font-size: 30px;
+
+    }
+
+    .blog h3 {
+        font-size: 22px;
+    }
+
+    .blog p {
+        font-size: 16px;
+    }
+}

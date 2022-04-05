@@ -1,9 +1,10 @@
 import React from 'react';
+import './About.css';
 
 const About = () => {
     return (
-        <div>
-            About
+        <div className='about-container'>
+            <h2>This is About Page</h2>
         </div>
     );
 };

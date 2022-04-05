@@ -15,7 +15,7 @@ const Dashboard = () => {
     ];
     return (
         <div className='charts-container'>
-            <div>
+            <div className='single-chart'>
                 <h3 className='chart-title'>Month Wise Sell :</h3>
                 <LineChart width={500} height={400} data={data}>
                     <Line type="monotone" dataKey="sell" stroke="#8884d8" />
@@ -26,7 +26,7 @@ const Dashboard = () => {
                     <Legend verticalAlign="bottom" height={50} />
                 </LineChart>
             </div>
-            <div>
+            <div className='single-chart'>
                 <h3 className='chart-title'>Investment vs Revenue :</h3>
                 <AreaChart width={500} height={400} data={data}>
                     <Area type="monotone" dataKey="investment" stroke="#82ca9d" fill="#82ca9d" />
@@ -38,7 +38,7 @@ const Dashboard = () => {
                     <Legend verticalAlign="bottom" height={50} />
                 </AreaChart>
             </div>
-            <div>
+            <div className='single-chart'>
                 <h3 className='chart-title'>Investment vs Revenue :</h3>
                 <BarChart width={500} height={400} data={data} >
                     <CartesianGrid strokeDasharray="5 5" />
@@ -50,7 +50,7 @@ const Dashboard = () => {
                     <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
                 </BarChart>
             </div>
-            <div>
+            <div className='single-chart'>
                 <h3 className='chart-title'>Investment vs Revenue :</h3>
                 <PieChart width={400} height={400}>
                     <Pie data={data} dataKey="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />

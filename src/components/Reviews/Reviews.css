@@ -8,3 +8,25 @@
     font-size: 37px;
     font-weight: 500;
 }
+
+@media screen and (min-width:250px) and (max-width:425px) {
+    .reviews-container {
+        padding: 0 20px;
+        margin-bottom: 50px;
+
+    }
+
+    .reviews-container h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:800px) {
+    .reviews-container {
+        padding: 0 50px;
+    }
+
+    .reviews-container h2 {
+        font-size: 30px;
+    }
+}
