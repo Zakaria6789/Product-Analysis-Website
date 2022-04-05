@@ -1,3 +1,4 @@
+/********************* Banner Part ********************/
 .banner {
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -42,7 +43,7 @@
 }
 
 
-
+/********************* Customar Reviews ********************/
 .customer-reviews {
     padding: 50px 100px;
     text-align: center;
@@ -81,7 +82,7 @@
 }
 
 
-
+/********************* Responsive for Mobile  ********************/
 @media screen and (min-width:250px) and (max-width:425px) {
     .banner {
         grid-template-columns: 1fr;
@@ -127,6 +128,7 @@
     }
 }
 
+/********************* Responsive for Tablet  ********************/
 @media screen and (min-width:426px) and (max-width:800px) {
     .banner {
         grid-template-columns: 3fr 2fr;

@@ -20,7 +20,7 @@
 }
 
 
-
+/********************* Responsive for Mobile  ********************/
 @media screen and (min-width:250px) and (max-width:425px) {
     .nav a {
         display: inline-block;

@@ -10,6 +10,7 @@ const Home = () => {
 
     return (
         <div>
+            {/********************* Banner-Part ******************/}
             <div className='banner'>
                 <div className="banner-left">
                     <h1>Best Camera With<br /> <span>Better Performance</span></h1>
@@ -20,6 +21,8 @@ const Home = () => {
                     <img src="camera2.png" alt="" />
                 </div>
             </div>
+
+            {/********************* Customer-Reviews ******************/}
             <div className="customer-reviews">
                 <div className="review-title">
                     <h2>Customer Reviews(3)</h2>

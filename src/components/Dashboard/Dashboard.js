@@ -7,15 +7,10 @@ import './Dashboard.css';
 const Dashboard = () => {
     const [chartsData, setChartsData] = useCharts([]);
     const data = chartsData;
-    const data02 = [
-        { name: 'Group A', value: 400 },
-        { name: 'Group B', value: 300 },
-        { name: 'Group C', value: 300 },
-        { name: 'Group D', value: 200 },
-    ];
     return (
         <div className='charts-container'>
             <div className='single-chart'>
+                {/********************* Line-Chart ******************/}
                 <h3 className='chart-title'>Month Wise Sell :</h3>
                 <LineChart width={500} height={400} data={data}>
                     <Line type="monotone" dataKey="sell" stroke="#8884d8" />
@@ -27,6 +22,7 @@ const Dashboard = () => {
                 </LineChart>
             </div>
             <div className='single-chart'>
+                {/********************* Area-Chart ******************/}
                 <h3 className='chart-title'>Investment vs Revenue :</h3>
                 <AreaChart width={500} height={400} data={data}>
                     <Area type="monotone" dataKey="investment" stroke="#82ca9d" fill="#82ca9d" />
@@ -39,6 +35,7 @@ const Dashboard = () => {
                 </AreaChart>
             </div>
             <div className='single-chart'>
+                {/********************* Bar-Chart ******************/}
                 <h3 className='chart-title'>Investment vs Revenue :</h3>
                 <BarChart width={500} height={400} data={data} >
                     <CartesianGrid strokeDasharray="5 5" />
@@ -51,6 +48,7 @@ const Dashboard = () => {
                 </BarChart>
             </div>
             <div className='single-chart'>
+                {/********************* Pie-Chart ******************/}
                 <h3 className='chart-title'>Investment vs Revenue :</h3>
                 <PieChart width={400} height={400}>
                     <Pie data={data} dataKey="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />

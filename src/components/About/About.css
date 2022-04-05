@@ -5,6 +5,7 @@
     padding: 0 100px;
 }
 
+/********************* Responsive for Mobile  ********************/
 @media screen and (min-width:250px) and (max-width:425px) {
     .about-container h2 {
         font-size: 25px;
@@ -12,6 +13,7 @@
     }
 }
 
+/********************* Responsive for Tablet  ********************/
 @media screen and (min-width:426px) and (max-width:800px) {
     .about-container h2 {
         font-size: 30px;
