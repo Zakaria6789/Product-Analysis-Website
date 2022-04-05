@@ -1,0 +1,13 @@
+.blogs-container {
+    padding: 0 100px;
+}
+
+.blogs-container h2 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.blog xmp {
+    color: #9D4473;
+}
