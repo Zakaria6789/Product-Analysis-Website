@@ -8,15 +8,16 @@
 
 .nav a {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 10px 13px;
     text-decoration: none;
     color: white;
     transition: all 0.2s ease-in;
+    margin-right: 5px;
 
 }
 
 .nav a:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid white !important;
 }
 
 
